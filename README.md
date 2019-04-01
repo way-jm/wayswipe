@@ -1,5 +1,4 @@
 ###序言
--首先要说的是我不太会写文档;
 -之前遇到一个需求，就是要实现类似手机QQ左滑显示更多选项的需求，
  搜寻了一波方案上，发现滴滴前端团队的cube-ui中swipe实现了一样的功能。
  cube-ui功能和强大:[传送门](https://didi.github.io/cube-ui/#/zh-CN),推荐一波，实名感谢。
@@ -9,7 +8,10 @@
 
 ###演示
 ####Talk is cheap,show you demo
+
 -[https://way-jm.github.io/wayswipe/](https://way-jm.github.io/wayswipe/)
+
+######代码在example中
 
 ###用法
   -安装
@@ -78,7 +80,6 @@
 ![图片](https://way-jm.github.io/wayswipe/static/picture/demo2.png)
 ###确认选项
 ![图片](https://way-jm.github.io/wayswipe/static/picture/demo3.png)
-
 
 
 
