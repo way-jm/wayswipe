@@ -1,4 +1,4 @@
-#序言
+###序言
 -首先要说的是我不太会写文档;
 -之前遇到一个需求，就是要实现类似手机QQ左滑显示更多选项的需求，
  搜寻了一波方案上，发现滴滴前端团队的cube-ui中swipe实现了一样的功能。
@@ -6,7 +6,12 @@
  本组件也是借鉴(程序员的事怎么能说抄呢)了cube-ui相关源码，
 -但是很多人还是喜欢"开箱即用",使用一个组件，比运用一个框架简单，哪怕这个框架可以按需引用。
 
-#用法
+
+###演示
+####Talk is cheap,show you demo
+-[https://way-jm.github.io/wayswipe/](https://way-jm.github.io/wayswipe/)
+
+###用法
   -安装
   `
   npm install wayswipe --save
@@ -18,6 +23,8 @@
   ` 
   
   -来一个插槽slot
+  
+  `template`
   
    ```
    <vswipe>
@@ -42,4 +49,39 @@
                   </li>
               </transition-group>
           </vswipe>
+          
 ```
+`data`
+```
+    export default {
+        name: 'App',
+        components: {
+            vswipe, vswipeItem
+        },
+        data() {
+            return {
+                testArr: [
+                    {name: '佐佐木希',hometown:'秋田县', age: '1988年2月8日',cl:'plus',tv:'天使之恋'},
+                    {name: '新垣结衣',hometown:'冲绳', age: '1988年6月11',cl:'minus',tv:'花水木'},
+                    {name: '上野树里',hometown:'兵库县', age: '1986年5月25',cl:'plus',tv:'摇摆少女'},
+                ]
+            }
+        },
+    }
+```
+
+###最终效果
+###列表
+![图片](https://way-jm.github.io/wayswipe/static/picture/demo1.png)
+
+###选项
+![图片](https://way-jm.github.io/wayswipe/static/picture/demo2.png)
+###确认选项
+![图片](https://way-jm.github.io/wayswipe/static/picture/demo3.png)
+
+
+
+
+
+
+
