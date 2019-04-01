@@ -11,13 +11,16 @@
   `
   npm install wayswipe --save
   `  
+  
   -使用
   `
    import {vswipe, vswipeItem} from 'wayswipe' 
   ` 
+  
   -来一个插槽slot
-  ` <vswipe>
-              <!--过度效果可以自定义,这里设置的height逐渐变成0-->
+  
+   ```
+   <vswipe>
               <transition-group name="swipe" tag="ul">
                   <li v-for="(item,index) in testArr" :key="item.name" class="swipe-item-wrapper">
                       <vswipeItem
@@ -39,5 +42,4 @@
                   </li>
               </transition-group>
           </vswipe>
-          ` 
- 
+```
