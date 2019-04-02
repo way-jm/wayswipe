@@ -56,7 +56,7 @@
 ```
 `data`
 ```
- export default {
+export default {
    name: 'App',
    components: { vswipe, vswipeItem},
     data() {
@@ -66,9 +66,9 @@
              {name: '新垣结衣',hometown:'冲绳', age: '1988年6月11',cl:'minus',tv:'花水木'},
              {name: '上野树里',hometown:'兵库县', age: '1986年5月25',cl:'plus',tv:'摇摆少女'},
              ]
-            }
-        },
-    }
+        }
+     },
+  }
 ```
 
 ###最终效果
