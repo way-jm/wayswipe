@@ -15,7 +15,7 @@
 ###### 代码在example中
 
 ### 用法
-  -安装
+  - 安装
   `
   npm install wayswipe --save
   `  
@@ -25,7 +25,7 @@
    import {vswipe, vswipeItem} from 'wayswipe' 
   ` 
   
-  -来一个插槽slot
+  - 来一个插槽slot
   
   `template`
   
