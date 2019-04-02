@@ -2,6 +2,7 @@
 [![](https://img.shields.io/npm/v/wayswipe.svg)](https://www.npmjs.com/package/wayswipe) 
 ![](https://img.shields.io/github/languages/top/way-jm/wayswipe.svg)
  ![GitHub language count](https://img.shields.io/github/languages/count/way-jm/wayswipe.svg)
+ ![GitHub package.json dynamic](https://img.shields.io/github/package-json/swipe/way-jm/wayswipe.svg)
 ### 序言
 - 直接开搞：就是要实现类似手机QQ左滑显示更多选项的需求，
  搜寻了一波方案上，发现滴滴的cube-ui中swipe实现了一样的功能。
