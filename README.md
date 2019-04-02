@@ -22,7 +22,8 @@
 
 ###### 代码在example中
 
-### 用法
+## 用法
+
   - 安装
   `
   npm install wayswipe --save
@@ -78,7 +79,8 @@ export default {
 }
 ```
 
-### 最终效果
+## 最终效果
+
 #### 列表
 ![图片](https://way-jm.github.io/wayswipe/static/picture/demo1.png)
 #### 选项
