@@ -1,4 +1,5 @@
-### wayswipe
+# wayswipe
+
 [![](https://img.shields.io/npm/v/wayswipe.svg)](https://www.npmjs.com/package/wayswipe) 
 ![](https://img.shields.io/github/languages/top/way-jm/wayswipe.svg)
  ![GitHub language count](https://img.shields.io/github/languages/count/way-jm/wayswipe.svg)
