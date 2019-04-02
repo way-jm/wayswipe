@@ -30,44 +30,42 @@
   `template`
   
    ```
-   <vswipe>
-              <transition-group name="swipe" tag="ul">
-                  <li v-for="(item,index) in testArr" :key="item.name" class="swipe-item-wrapper">
-                      <vswipeItem
-                              ref="swipeItem"
-                              :index="index"
-                      >
-                          <div class="content" :class="item.cl">
-                              <div class="stock">
-                                  <h1 class="mbc1">{{item.name}}</h1>
-                                  <h2 class="gf">{{item.age}}</h2>
-                              </div>
-                              <div class="bf price">{{item.hometown}}</div>
-                              <div class="gap">
-                                  <span>{{item.tv}}</span>
-                              </div>
-                          </div>
-                      </vswipeItem>
-                      <div class="line"></div>
-                  </li>
-              </transition-group>
-          </vswipe>
+<vswipe>
+  <transition-group name="swipe" tag="ul">
+      <li v-for="(item,index) in testArr" :key="item.name" class="swipe-item-wrapper">
+        <vswipeItem
+          ref="swipeItem"
+           :index="index"
+        >
+        <div class="content" :class="item.cl">
+          <div class="stock">
+            <h1 class="mbc1">{{item.name}}</h1>
+            <h2 class="gf">{{item.age}}</h2>
+          </div>
+         <div class="bf price">{{item.hometown}}</div>
+           <div class="gap">
+            <span>{{item.tv}}</span>
+           </div>
+         /div>
+       </vswipeItem>
+       <div class="line"></div>
+      </li>
+ </transition-group>
+</vswipe>
           
 ```
 `data`
 ```
-    export default {
-        name: 'App',
-        components: {
-            vswipe, vswipeItem
-        },
-        data() {
-            return {
-                testArr: [
-                    {name: '佐佐木希',hometown:'秋田县', age: '1988年2月8日',cl:'plus',tv:'天使之恋'},
-                    {name: '新垣结衣',hometown:'冲绳', age: '1988年6月11',cl:'minus',tv:'花水木'},
-                    {name: '上野树里',hometown:'兵库县', age: '1986年5月25',cl:'plus',tv:'摇摆少女'},
-                ]
+ export default {
+   name: 'App',
+   components: { vswipe, vswipeItem},
+    data() {
+       return {
+          testArr: [
+             {name: '佐佐木希',hometown:'秋田县', age: '1988年2月8日',cl:'plus',tv:'天使之恋'},
+             {name: '新垣结衣',hometown:'冲绳', age: '1988年6月11',cl:'minus',tv:'花水木'},
+             {name: '上野树里',hometown:'兵库县', age: '1986年5月25',cl:'plus',tv:'摇摆少女'},
+             ]
             }
         },
     }
