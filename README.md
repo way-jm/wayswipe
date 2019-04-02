@@ -71,12 +71,11 @@ export default {
 ```
 
 ### 最终效果
-### 列表
+#### 列表
 ![图片](https://way-jm.github.io/wayswipe/static/picture/demo1.png)
-
-### 选项
+#### 选项
 ![图片](https://way-jm.github.io/wayswipe/static/picture/demo2.png)
-### 确认选项
+#### 确认选项
 ![图片](https://way-jm.github.io/wayswipe/static/picture/demo3.png)
 
 
