@@ -6,10 +6,10 @@
  ![GitHub package.json dynamic](https://img.shields.io/github/package-json/swipe/way-jm/wayswipe.svg)
 ## 序言
 
-- 直接开搞：就是要实现类似手机QQ左滑显示更多选项的需求，
+- 直接开搞：就是要实现类似手机QQ左滑显示更多选项的需求。
  搜寻了一波方案上，发现滴滴的cube-ui中swipe实现了一样的功能。
  cube-ui功能和强大，有需要的小伙伴可以移步这里：[cube-ui](https://didi.github.io/cube-ui/#/zh-CN)。
- 这里也是借鉴(程序员的事怎么能说抄呢)了cube-ui相关源码，
+ 这里也是借鉴(程序员的事怎么能说抄呢)了cube-ui相关源码。
 - 但是很多人还是喜欢"开箱即用",使用一个组件，比运用一个框架简单，哪怕这个框架可以按需引用。
   所以抽出了其中的核心代码，删繁就简，加以润色，方便单独使用。
 
