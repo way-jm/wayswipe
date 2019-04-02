@@ -1,5 +1,5 @@
 ### wayswipe
- [![00](https://img.shields.io/badge/link-996.icu-red.svg)(https://www.npmjs.com/package/wayswipe)
+ [![npm](https://img.shields.io/badge/link-996.icu-red.svg)(https://www.npmjs.com/package/wayswipe)
  
 ### 序言
 - 直接开搞：就是要实现类似手机QQ左滑显示更多选项的需求，
