@@ -59,15 +59,15 @@
 export default {
    name: 'App',
    components: { vswipe, vswipeItem},
-    data() {
-       return {
-          testArr: [
-             {name: '佐佐木希',hometown:'秋田县', age: '1988年2月8日',cl:'plus',tv:'天使之恋'},
-             {name: '新垣结衣',hometown:'冲绳', age: '1988年6月11',cl:'minus',tv:'花水木'},
-             {name: '上野树里',hometown:'兵库县', age: '1986年5月25',cl:'plus',tv:'摇摆少女'},
-             ]
-        }
-     },
+   data() {
+    return {
+     testArr: [
+       {name: '佐佐木希',hometown:'秋田县', age: '1988年2月8日',cl:'plus',tv:'天使之恋'},
+       {name: '新垣结衣',hometown:'冲绳', age: '1988年6月11',cl:'minus',tv:'花水木'},
+       {name: '上野树里',hometown:'兵库县', age: '1986年5月25',cl:'plus',tv:'摇摆少女'},
+      ]
+   }
+},
   }
 ```
 
