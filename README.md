@@ -1,6 +1,6 @@
 ### wayswipe
 [![](https://img.shields.io/npm/v/wayswipe.svg)](https://www.npmjs.com/package/wayswipe) 
-[![](https://img.shields.io/github/languages/top/way-jm/wayswipe.svg)]
+![](https://img.shields.io/github/languages/top/way-jm/wayswipe.svg)
  
 ### 序言
 - 直接开搞：就是要实现类似手机QQ左滑显示更多选项的需求，
