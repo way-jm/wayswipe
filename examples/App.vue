@@ -30,7 +30,6 @@
                         </div>
                     </vswipeItem>
                     <div class="line"></div>
-
                 </li>
             </transition-group>
 
